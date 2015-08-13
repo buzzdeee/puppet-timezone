@@ -65,6 +65,9 @@ class timezone (
             content => template('timezone/suse.erb'),
         }
     }
+    'OpenBSD': {
+        # nothing to do
+    }
     'Linux': {
       case $::operatingsystem {
         'Amazon': {
